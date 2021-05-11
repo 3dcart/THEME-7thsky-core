@@ -1,3 +1,6 @@
+$(".logo img").attr("height" , $('.logo img').height());
+$(".logo img").attr("width" , $('.logo img').width());
+
 //flyout cart
 function update_flyoutcart() {
     if (window["_3d_cart"] != undefined) {
